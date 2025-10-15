@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(50, 50, 50);
+    margin: 0;
+}
+.navrawr {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;      
+}
+.imgme {
+    position: relative;
+    top: 25px;
+    border-radius: 50%;
+    border: solid 3px rgb(85, 85, 85);
+}
+nav a {
+    text-decoration: none;
+    font-family:poppins;
+    font-size: 25px;
+    font-weight: bold;
+    height: 50px;
+    width: max-content;
+    padding: 0 5px;
+    line-height: 50px;
+    position: sticky;
+    top: 25px;
+    border-radius: 20px;
+    transition: 0.2s;
+    color: rgb(56, 56, 56);
+}
+nav a:hover{
+    background: rgba(39, 39, 39, 0.151);
+    color: rgb(3, 3, 3);
+}
